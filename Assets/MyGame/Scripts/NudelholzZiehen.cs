@@ -18,7 +18,7 @@ public class NudelholzZiehen : MonoBehaviour
     void OnMouseDrag()
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position= new Vector3(mousePos.x, mousePos.y,-1);
+        transform.position= new Vector3(mousePos.x, mousePos.y,-2);
         if (GameManager.Instance.phase==2)
         {
             if (aufTeig1)
